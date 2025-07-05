@@ -1,0 +1,81 @@
+{
+  "basics": {
+    "name": "Kyoungbin Cho",
+    "label": "Software Engineer / Quant Developer",
+    "email": "ronaldc5@illinois.edu",
+    "phone": "217-766-0265",
+    "website": "https://github.com/Kyoungbin"
+  },
+  "about": "I'm a BS/MS Computer Science student at UIUC (Dean’s List, James Scholar) passionate about high-performance systems, low-latency infrastructure, and machine learning. I’ve interned at Sony/PlayStation building microservices, ML pipelines, and streaming analysis tools, and currently work at SquareKettle designing low-latency trading systems and market-making strategies. My projects span protocol-level encoders, compression engines, and real-time LLM tools. I placed in the top 3% globally (3rd in Korea) in IMC Prosperity and was a finalist in Akuna Capital's Options 201 program."
+,
+  "education": [
+  {
+    "institution": "University of Illinois at Urbana-Champaign",
+    "degree": "BS in Computer Science",
+    "startDate": "2023-08",
+    "endDate": "2026-05",
+    "details": "Dean’s List, James Scholar, GPA: 3.82/4.00. Relevant coursework: Distributed Systems, Programming Languages and Compilers, Discrete Structures, Statistics for CS, Data Structures and Algorithms, Computer Architecture, Numerical Methods, High-Frequency Trading Technology, Applied Machine Learning, Algorithms, Database Systems, System Programming."
+  }
+],
+  "experience": [
+    {
+      "company": "Sony/PlayStation",
+      "position": "Software Engineer Intern",
+      "startDate": "2025-05",
+      "endDate": "2025-08",
+      "summary": "Built Spring Boot microservices with WebSocket middleware, developed .NET Core music analysis service, and engineered ML pipeline for audio feature extraction. Deployed systems using Docker and Kubernetes."
+    },
+    {
+      "company": "SquareKettle Street Securities LLC",
+      "position": "Quantitative Analyst Intern",
+      "startDate": "2024-09",
+      "endDate": "Present",
+      "summary": "Designed low-latency data pipelines in C++/Python for high-frequency trading feeds and contributed to cross-asset options strategies using statistical signals and volatility surfaces."
+    },
+    {
+      "company": "IMC Prosperity Competition",
+      "position": "Trader",
+      "startDate": "2025-04",
+      "endDate": "2025-04",
+      "summary": "Designed market-making algorithm using fair value estimation and order book imbalance tracking; placed in top 3% globally and 3rd in Korea based on PnL."
+    }
+  ],
+  "projects": [
+    {
+      "name": "CBOE Binary Order Entry Protocol Encoder/Decoder",
+      "description": "C++ implementation of low-latency trading protocol encoder/decoder with sub-microsecond performance using zero-copy buffers and custom allocators.",
+      "link": "https://github.com/kcho2027/CBOE-BOE-Encoding-Decoding-Engine"
+    },
+    {
+      "name": "IEX Transport Protocol Compression",
+      "description": "Created a hybrid compression algorithm (Huffman + LZ77 + delta) in C++ with FUSE integration; achieved 70%+ size reduction and sub-ms latency.",
+      "link": "https://gitlab.engr.illinois.edu/ie421_high_frequency_trading_fall_2024/ie421_hft_fall_2024_group_06/group_06_project"
+    },
+    {
+      "name": "Mistral Chrome Extension",
+      "description": "Built a Chrome extension that allows users to highlight text and get real-time, local LLM insights using the Mistral model and Ollama. Backend served by Flask; ensures full offline inference with no third-party API calls.",
+      "link": "https://github.com/kcho2027/Mistral-Extension"
+    },
+    {
+      "name": "Modal and Nodal",
+      "description": "Built a Rust-based high-speed web scraper and parser for jazz musician discographies; structured data in MongoDB to support scalable musicology analysis.",
+      "link": "https://github.com/kcho2027/Modal-and-Nodal"
+    },
+    {
+      "name": "SoccerMatchPro",
+      "description": "Developed a full-stack Flask web app to visualize a soccer match prediction model. Achieved 75% accuracy with a random forest ML pipeline; inducted into the project Hall of Fame for excellence in predictive performance and UI design.",
+      "link": "https://github.com/kcho2027/Soccer-Prediction-Model"
+    }
+  ],
+  "techStack": [
+    "C++", "Python", "Java", "Rust", "C", "Kotlin", "JavaScript", "TypeScript",
+    "Spring Boot", ".NET Core", "Flask", "FastAPI", "React", "Docker", "Kubernetes",
+    "DynamoDB", "MongoDB", "SQL", "Neo4j", "Scikit-learn", "Chrome Extensions", "Figma"
+  ],
+  "extra": [
+    "Finalist – Akuna Options 201 (Top Performer, Final-Round Interview)",
+    "Dean’s List, James Scholar at UIUC",
+    "Open-source contributor",
+    "Interested in low-latency trading systems and real-time architecture"
+  ]
+}
